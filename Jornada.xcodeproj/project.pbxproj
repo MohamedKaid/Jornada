@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8491E6632DB809FC00BCC6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8491E6482DB809FA00BCC6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8491E64F2DB809FA00BCC6DB;
+			remoteInfo = Jornada;
+		};
+		8491E66D2DB809FC00BCC6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8491E6482DB809FA00BCC6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8491E64F2DB809FA00BCC6DB;
+			remoteInfo = Jornada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8491E6502DB809FA00BCC6DB /* Jornada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jornada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8491E6622DB809FC00BCC6DB /* JornadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JornadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8491E66C2DB809FC00BCC6DB /* JornadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JornadaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8491E6AA2DB96C6700BCC6DB /* Exceptions for "Jornada" folder in "Jornada" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8491E64F2DB809FA00BCC6DB /* Jornada */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8491E6522DB809FA00BCC6DB /* Jornada */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8491E6AA2DB96C6700BCC6DB /* Exceptions for "Jornada" folder in "Jornada" target */,
+			);
+			path = Jornada;
+			sourceTree = "<group>";
+		};
+		8491E6652DB809FC00BCC6DB /* JornadaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JornadaTests;
+			sourceTree = "<group>";
+		};
+		8491E66F2DB809FC00BCC6DB /* JornadaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JornadaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8491E64D2DB809FA00BCC6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491E65F2DB809FC00BCC6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491E6692DB809FC00BCC6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8491E6472DB809FA00BCC6DB = {
+			isa = PBXGroup;
+			children = (
+				8491E6522DB809FA00BCC6DB /* Jornada */,
+				8491E6652DB809FC00BCC6DB /* JornadaTests */,
+				8491E66F2DB809FC00BCC6DB /* JornadaUITests */,
+				8491E6512DB809FA00BCC6DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8491E6512DB809FA00BCC6DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8491E6502DB809FA00BCC6DB /* Jornada.app */,
+				8491E6622DB809FC00BCC6DB /* JornadaTests.xctest */,
+				8491E66C2DB809FC00BCC6DB /* JornadaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8491E64F2DB809FA00BCC6DB /* Jornada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8491E6762DB809FC00BCC6DB /* Build configuration list for PBXNativeTarget "Jornada" */;
+			buildPhases = (
+				8491E64C2DB809FA00BCC6DB /* Sources */,
+				8491E64D2DB809FA00BCC6DB /* Frameworks */,
+				8491E64E2DB809FA00BCC6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8491E6522DB809FA00BCC6DB /* Jornada */,
+			);
+			name = Jornada;
+			packageProductDependencies = (
+			);
+			productName = Jornada;
+			productReference = 8491E6502DB809FA00BCC6DB /* Jornada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8491E6612DB809FC00BCC6DB /* JornadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8491E6792DB809FC00BCC6DB /* Build configuration list for PBXNativeTarget "JornadaTests" */;
+			buildPhases = (
+				8491E65E2DB809FC00BCC6DB /* Sources */,
+				8491E65F2DB809FC00BCC6DB /* Frameworks */,
+				8491E6602DB809FC00BCC6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8491E6642DB809FC00BCC6DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8491E6652DB809FC00BCC6DB /* JornadaTests */,
+			);
+			name = JornadaTests;
+			packageProductDependencies = (
+			);
+			productName = JornadaTests;
+			productReference = 8491E6622DB809FC00BCC6DB /* JornadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8491E66B2DB809FC00BCC6DB /* JornadaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8491E67C2DB809FC00BCC6DB /* Build configuration list for PBXNativeTarget "JornadaUITests" */;
+			buildPhases = (
+				8491E6682DB809FC00BCC6DB /* Sources */,
+				8491E6692DB809FC00BCC6DB /* Frameworks */,
+				8491E66A2DB809FC00BCC6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8491E66E2DB809FC00BCC6DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8491E66F2DB809FC00BCC6DB /* JornadaUITests */,
+			);
+			name = JornadaUITests;
+			packageProductDependencies = (
+			);
+			productName = JornadaUITests;
+			productReference = 8491E66C2DB809FC00BCC6DB /* JornadaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8491E6482DB809FA00BCC6DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					8491E64F2DB809FA00BCC6DB = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					8491E6612DB809FC00BCC6DB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8491E64F2DB809FA00BCC6DB;
+					};
+					8491E66B2DB809FC00BCC6DB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8491E64F2DB809FA00BCC6DB;
+					};
+				};
+			};
+			buildConfigurationList = 8491E64B2DB809FA00BCC6DB /* Build configuration list for PBXProject "Jornada" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8491E6472DB809FA00BCC6DB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8491E6512DB809FA00BCC6DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8491E64F2DB809FA00BCC6DB /* Jornada */,
+				8491E6612DB809FC00BCC6DB /* JornadaTests */,
+				8491E66B2DB809FC00BCC6DB /* JornadaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8491E64E2DB809FA00BCC6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491E6602DB809FC00BCC6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491E66A2DB809FC00BCC6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8491E64C2DB809FA00BCC6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491E65E2DB809FC00BCC6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491E6682DB809FC00BCC6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8491E6642DB809FC00BCC6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8491E64F2DB809FA00BCC6DB /* Jornada */;
+			targetProxy = 8491E6632DB809FC00BCC6DB /* PBXContainerItemProxy */;
+		};
+		8491E66E2DB809FC00BCC6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8491E64F2DB809FA00BCC6DB /* Jornada */;
+			targetProxy = 8491E66D2DB809FC00BCC6DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8491E6742DB809FC00BCC6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8491E6752DB809FC00BCC6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8491E6772DB809FC00BCC6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A965J3JGT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jornada/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "this app saves your screenshots to the Photos Library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mk.Jornada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8491E6782DB809FC00BCC6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A965J3JGT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jornada/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "this app saves your screenshots to the Photos Library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mk.Jornada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8491E67A2DB809FC00BCC6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mk.JornadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jornada.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jornada";
+			};
+			name = Debug;
+		};
+		8491E67B2DB809FC00BCC6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mk.JornadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jornada.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jornada";
+			};
+			name = Release;
+		};
+		8491E67D2DB809FC00BCC6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mk.JornadaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jornada;
+			};
+			name = Debug;
+		};
+		8491E67E2DB809FC00BCC6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mk.JornadaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jornada;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8491E64B2DB809FA00BCC6DB /* Build configuration list for PBXProject "Jornada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8491E6742DB809FC00BCC6DB /* Debug */,
+				8491E6752DB809FC00BCC6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8491E6762DB809FC00BCC6DB /* Build configuration list for PBXNativeTarget "Jornada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8491E6772DB809FC00BCC6DB /* Debug */,
+				8491E6782DB809FC00BCC6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8491E6792DB809FC00BCC6DB /* Build configuration list for PBXNativeTarget "JornadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8491E67A2DB809FC00BCC6DB /* Debug */,
+				8491E67B2DB809FC00BCC6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8491E67C2DB809FC00BCC6DB /* Build configuration list for PBXNativeTarget "JornadaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8491E67D2DB809FC00BCC6DB /* Debug */,
+				8491E67E2DB809FC00BCC6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8491E6482DB809FA00BCC6DB /* Project object */;
+}
